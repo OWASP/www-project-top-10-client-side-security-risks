@@ -9,6 +9,9 @@ level: 2
 type: documentation
 pitch: The client-side of browser based web applications has different security challenges than [the server-side](https://owasp.org/www-project-top-ten/).
 
+---
+<!-- rebuild 40 -->
+
 ## OWASP Top 10 Client-Side Security Risks
 
 Browser side applications are frequently a complex combination of custom HTML and JavaScript, leveraging numerous 3rd party libraries that are both served by the custom application, and also frequently integrated with 3rd party services that supply their own custom code and libraries into the same client-side application. And all of this runs in the customer's browser in the wild, rather than on application owner controlled, managed, and secured servers. Browser applications frequently interact with numerous servers, not just the original server hosting the server application and serving the core elements of the client-side JavaScript application to the user's browser.
