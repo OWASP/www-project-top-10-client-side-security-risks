@@ -2,21 +2,23 @@
 
 layout: col-sidebar
 title: OWASP Top 10 Client-Side Security Risks
-tags: example-tag
+site_side: true
+tags: top10
+project: true
 level: 2
-type: 
-pitch: A very brief, one-line description of your project
+type: documentation
+pitch: The client-side of browser based web applications has different security challenges than [the server-side](https://owasp.org/www-project-top-ten/).
 
----
+## OWASP Top 10 Client-Side Security Risks
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+Browser side applications are frequently a complex combination of custom HTML and JavaScript, leveraging numerous 3rd party libraries that are both served by the custom application, and also frequently integrated with 3rd party services that supply their own custom code and libraries into the same client-side application. And all of this runs in the customer's browser in the wild, rather than on application owner controlled, managed, and secured servers. Browser applications frequently interact with numerous servers, not just the original server hosting the server application and serving the core elements of the client-side JavaScript application to the user's browser.
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+This results in numerous risks for client-side code that are very different from the server-side applications. Therefore, the security of the client-side web application code requires a dedicated Top 10.  This is similar to the [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/) which is a dedicated Top 10 for mobile apps. Mobile apps are frequently the client-side of a web app, where the server-side of the web app provides REST services to the mobile app.
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+This project will focus on identifying and organizing a prioritized set of security risks for client-side browser code (e.g., JavaScript, Web Assembly, etc.).
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+## Initial Plans
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+Are first priority is to identify a few more coleaders and other contributors willing to work on this project. We will then identify candidates for this Top 10 list, and vet this list through surveys, working groups, or other means.
 
-type: code, tool, documentation, or other
+Our goal is to then produce a draft Top 10 for public comment. We hope to produce PDF, Wiki and/or GitBook versions of the final document so it can be consumed in the format most helpful to the reader.
