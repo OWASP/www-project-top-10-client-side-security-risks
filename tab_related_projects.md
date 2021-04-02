@@ -16,6 +16,6 @@ The other OWASP Top 10 projects are:
 * [THE OWASP Top 10](https://owasp.org/www-project-top-ten/)
 * [OWASP Serverless Top 10](https://owasp.org/www-project-serverless-top-10/)
 * [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/)
-* [OWASP Top 10 Privacy Risks)(https://owasp.org/www-project-top-10-privacy-risks/)
+* [OWASP Top 10 Privacy Risks](https://owasp.org/www-project-top-10-privacy-risks/)
 * [OWASP API Security Top 10](https://owasp.org/www-project-api-security/)
 * [OWASP Docker Top 10](https://owasp.org/www-project-docker-top-10/)

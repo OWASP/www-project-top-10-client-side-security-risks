@@ -9,7 +9,7 @@
 * <i class="fas fa-shield-alt" style="font-size: 1.2em; color:#233e81;"></i><span style="font-size:1.0em;padding-left:12px;">Defender</span>
 
 ### Licensing
-[CC BY-SA 4.0][license-logo]{:width="175px"}][license]
+[CC BY-SA 4.0][license-logo]{:width="175px"}[license]
 
 [inc-proj]: https://www.owasp.org/index.php/OWASP_Project_Stages#tab=Incubator_Projects
 [lab-proj-logo]: https://raw.githubusercontent.com/OWASP/www--site-theme/master/assets/images/common/owasp_level_labs.svg?sanitize=true
