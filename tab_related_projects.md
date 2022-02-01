@@ -12,7 +12,7 @@ tags: top10
 
 The Top 10 Client Side Security Risks Project is one of many interrelated Top 10 projects at OWASP.
 
-The other OWASP Top 10 projects are:
+The other OWASP Top 10 projects that we are aware of are:
 * [THE OWASP Top 10](https://owasp.org/www-project-top-ten/)
 * [OWASP Serverless Top 10](https://owasp.org/www-project-serverless-top-10/)
 * [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/)

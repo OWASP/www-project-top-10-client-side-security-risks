@@ -22,6 +22,6 @@ This project will focus on identifying and organizing a prioritized set of secur
 
 ## Initial Plans
 
-Are first priority is to identify a few more coleaders and other contributors willing to work on this project. We will then identify candidates for this Top 10 list, and vet this list through surveys, working groups, or other means.
+We have assembled a team, and have identified a set of candidates for this Top 10 list that we are still refining. We plan to release the candidates list in February 2022, and would like to vet this list through surveys, working groups, or other means.
 
-Our goal is to then produce a draft Top 10 for public comment. We hope to produce PDF, Wiki and/or GitBook versions of the final document so it can be consumed in the format most helpful to the reader.
+Our goal is to then produce a draft Top 10 later in 2022 for public comment. We hope to produce PDF, Wiki and/or GitBook versions of the final document so it can be consumed in the format most helpful to the reader.
