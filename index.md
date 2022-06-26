@@ -14,7 +14,7 @@ pitch: The client-side of browser based web applications has different security 
 
 ## OWASP Top 10 Client-Side Security Risks
 
-Browser side applications are frequently a complex combination of custom HTML and JavaScript, leveraging numerous 3rd-party libraries that are both served by the custom application, and frequently integrated with 3rd-party services that supply their own custom code and libraries into the same client-side application. All this runs in the customer's browser in the wild, rather than on application owner controlled, managed, and secured servers. Browser applications frequently interact with numerous servers, not just the original server hosting the server application and serving the core elements of the client-side JavaScript application to the user's browser.
+Browser side applications are frequently a complex combination of custom HTML and JavaScript, leveraging numerous third-party libraries that are both served by the custom application, and frequently integrated with third-party services that supply their own custom code and libraries into the same client-side application. All this runs in the customer's browser in the wild, rather than on application owner controlled, managed, and secured servers. Browser applications frequently interact with numerous servers, not just the original server hosting the server application and serving the core elements of the client-side JavaScript application to the user's browser.
 
 This results in numerous risks for client-side code that are very different from the server-side applications. Therefore, the security of the client-side web application code requires a dedicated Top 10.  This is similar to the [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/) which is a dedicated Top 10 for mobile apps. Mobile apps are frequently the client-side of a web app, where the server-side of the web app provides REST services to the mobile app.
 
@@ -44,11 +44,11 @@ Lack of detection and updates to JavaScript libraries that are outdated or conta
 
 **5. Lack of Third-party Origin Control**
 
-Origin control allows the restriction of certain web assets or resources by comparing the origin of the resource to the origin of the 3rd-party library. Without leveraging such controls, supply chain risk increases due to inclusion of unknown or uncontrolled 3rd-party code that has access to data in the site's origin.
+Origin control allows the restriction of certain web assets or resources by comparing the origin of the resource to the origin of the third-party library. Without leveraging such controls, supply chain risk increases due to inclusion of unknown or uncontrolled third-party code that has access to data in the site's origin.
 
 **6. JavaScript Drift**
 
-Inability to detect changes at the asset and code level of for JavaScript used client-side. This includes the inability to detect behavioral changes of this code to determine if the changes are potentially malicious in nature. This is particularly important for 3rd-party libraries.
+Inability to detect changes at the asset and code level of for JavaScript used client-side. This includes the inability to detect behavioral changes of this code to determine if the changes are potentially malicious in nature. This is particularly important for third-party libraries.
 
 **7. Sensitive Data Stored Client-Side**
 
@@ -56,7 +56,7 @@ Storage of sensitive data like passwords, crypto secrets, API tokens, or PII dat
 
 **8. Client-side Security Logging and Monitoring Failures**
 
-Insufficient monitoring and detection of client-side changes and data accesses, particularly failures and errors, in real-time as each page is assembled and executed using both first-party and 3rd-party code. Just like [OWASP Top 10: A09-2021 - Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/), but focused on Client-Side behavior.
+Insufficient monitoring and detection of client-side changes and data accesses, particularly failures and errors, in real-time as each page is assembled and executed using both first-party and third-party code. Just like [OWASP Top 10: A09-2021 - Security Logging and Monitoring Failures](https://owasp.org/Top10/A09_2021-Security_Logging_and_Monitoring_Failures/), but focused on Client-Side behavior.
 
 **9. Not Using Standard Browser Security Controls**
 
