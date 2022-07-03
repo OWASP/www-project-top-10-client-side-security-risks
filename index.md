@@ -1,7 +1,7 @@
 ---
 
 layout: col-sidebar
-title: OWASP Top 10 Client-side Security Risks
+title: OWASP Top 10 Client-Side Security Risks
 site_side: true
 tags: top10
 project: true
@@ -12,7 +12,7 @@ pitch: The client-side of browser based web applications has different security 
 ---
 <!-- rebuild 40 -->
 
-## OWASP Top 10 Client-side Security Risks
+## OWASP Top 10 Client-Side Security Risks
 
 Browser side applications are frequently a complex combination of custom HTML, CSS, and JavaScript, leveraging numerous third-party libraries that are both served by the custom application, and frequently integrated with third-party services that supply their own custom code and libraries into the same client-side application. All this runs in the customer's browser in the wild, rather than on application owner controlled, managed, and secured servers. Browser applications frequently interact with numerous servers, not just the original server hosting the server application and serving the core elements of the client-side JavaScript application to the user's browser.
 
@@ -20,7 +20,7 @@ This results in numerous risks for client-side code that are very different from
 
 This project will focus on identifying and organizing a prioritized set of security risks for client-side browser code (e.g., JavaScript, Web Assembly, etc.).
 
-## Candidate Top 10 Client-side Security Risks
+## Candidate Top 10 Client-Side Security Risks
 
 The current team has pulled together the following Candidates for the OWASP Top 10 Client-side Security Risks. After a suitable comment period on this list, we'll produce a complete draft Top 10 later in 2022 for another round of comments. Like other OWASP Top 10s, we plan to produce PDF, Wiki and/or GitBook versions of the final document so it can be consumed in the format most helpful to the reader.
 
@@ -50,7 +50,7 @@ Origin control allows the restriction of certain web assets or resources by comp
 
 Inability to detect changes at the asset and code level of JavaScript used client-side. This includes the inability to detect behavioral changes of this code to determine if the changes are potentially malicious in nature. This is particularly important for third-party libraries.
 
-**7. Sensitive Data Stored Client-side**
+**7. Sensitive Data Stored Client-Side**
 
 Storage of sensitive data like passwords, crypto secrets, API tokens, or PII data in persistent client-side storage like LocalStorage, browser cache, or transient storage like JavaScript variables in a data layer.
 
@@ -62,7 +62,7 @@ Insufficient monitoring and detection of client-side changes and data accesses, 
 
 Not using common standards-based security controls built into browsers such as iframe sandboxes, and security headers like Content Security Policy (CSP), subresource integrity, and many other standard security features.
 
-**10. Including Proprietary Information Client-side**
+**10. Including Proprietary Information Client-Side**
 
 Presence of sensitive business logic, developer comments, proprietary algorithms, or system information contained in client-side code or stored data.
 
