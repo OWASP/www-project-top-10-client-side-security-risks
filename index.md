@@ -62,7 +62,7 @@ Insufficient monitoring and detection of client-side changes and data accesses, 
 
 Not using common standards-based security controls built into browsers such as iframe sandboxes, and security headers like Content Security Policy (CSP), subresource integrity, and many other standard security features.
 
-**10. Including Proprietary Information Client-Side**
+**10. Including Proprietary Information on the Client-Side**
 
 Presence of sensitive business logic, developer comments, proprietary algorithms, or system information contained in client-side code or stored data.
 
