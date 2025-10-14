@@ -1,0 +1,24 @@
+audience:
+  - builder
+  - defender
+leaders:
+  - name: Ivan Tsarynny
+    email: ivan.tsarynny@owasp.org
+  - name: Lavakumar Kuppan
+    email: lavakumar.kuppan@owasp.org
+  - name: Dave Wichers
+    email: dave.wichers@owasp.org
+    github: davewichers
+level: 2
+name: OWASP Top 10 Client-Side Security Risks
+pitch: The client-side of browser based web applications has different security challenges than [the server-side](https://owasp.org/www-project-top-ten/).
+repositories:
+  - name: www-project-top-10-client-side-security-risks
+    url: https://github.com/OWASP/www-project-top-10-client-side-security-risks
+    description: OWASP Foundation Web Repository
+tags:
+  - top10
+  - custom-tag-1
+  - custom-tag-2
+type: documentation
+website: https://owasp.org/www-project-top-10-client-side-security-risks
